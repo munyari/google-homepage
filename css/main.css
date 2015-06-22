@@ -1,3 +1,36 @@
-i#logo {
+body {
+  font-family: Arial,sans-serif;
+  font-size:small;
+}
+#logo {
   padding-top:7px;
+  border:0;
+  width:500px;
+  height:200px;
+}
+#hplogo {
+  display:inline-block;
+  position:relative;
+  height:200px;
+  width:500px;
+}
+#lga {
+  height:231px;
+  margin-top:80px;
+}
+#search {
+  height:102px;
+}
+#searchbar {
+  /*border: medium none;*/
+  padding:0;
+  margin:0;
+  height:auto;
+  max-width:568px;
+  width:100%;
+/*  background: transparent url(data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D) repeat scroll 0% 0%; 
+  position: absolute;
+  z-index:6;
+  left:0;
+  outline:medium none;*/
 }
