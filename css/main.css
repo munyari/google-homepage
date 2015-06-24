@@ -1,6 +1,10 @@
 body {
   font-family: Arial,sans-serif;
   font-size:small;
+  color: #222;
+}
+ li{
+  display: inline;
 }
 #logo {
   padding-top:7px;
@@ -33,4 +37,25 @@ body {
   z-index:6;
   left:0;
   outline:medium none;*/
+}
+#topnav {
+  float:right;
+  order: 1;
+}
+.nav {
+  min-width: 302px;
+  z-index: 987;
+  /*display: flex;*/
+  flex: 1 1 auto;
+  float:right;
+  padding-left:30px;
+  padding-right:30px;
+  position-relative;
+  text-align: right;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  white-space: nowrap;
+  font-size:13px;
 }
