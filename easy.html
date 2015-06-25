@@ -7,15 +7,17 @@
     <link rel="shortcut icon" href="https://encrypted.google.com/favicon.ico" />
   </head>
   <body>
-    <div id="topnav" class="nav">
-     <ul>
-       <li>User</li>
-       <li><a href="https://mail.google.com/mail/">Gmail</a></li>
-       <li><a href="https://www.google.com/imghp">Images</a></li>
-       <li><a href="http://www.google.com/intl/en/options/">apps</a></li>
-       <li>notifs</li>
-       <li><a href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/%3Fgws_rd%3Dssl">profile</a></li>
-     </ul>
+    <div id="top">
+      <div id="topnav" class="nav">
+      <ul>
+        <li>User</li>
+        <div class="navdiv"><a class="navlnk" href="https://mail.google.com/mail/">Gmail</a></div>
+        <div class="navdiv"><a class="navlnk" href="https://www.google.com/imghp">Images</a></div>
+        <div class="navdiv"><a class="navlnk" id="apps" href="http://www.google.com/intl/en/options/"></a></div>
+        <li>notifs</li>
+        <li><a href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/%3Fgws_rd%3Dssl">profile</a></li>
+      </ul>
+    </div>
    </div>
     <center>
       <div id="lga">
@@ -27,7 +29,9 @@
       </div>
       <div id="search">
        <form action="#">
-        <input id="searchbar" type="text" name="searchbar" spellcheck="false" maxlength="2048" autocomplete="off" title="Search" value="" aria-label="Search"/>
+        <div id="searchdiv">
+          <input id="searchbar" type="text" name="searchbar" spellcheck="false" maxlength="2048" autocomplete="off" title="Search" value="" aria-label="Search"/>
+        </div>
         <br>
         <center>
           <input type="submit" value="Google Search"/>
@@ -36,15 +40,17 @@
        </form>
      </div>
    </center>
-      <ul>
-        <li><a href="https://www.google.com/intl/en/ads/">Advertising</a></li>
-        <li><a href="https://www.google.com/services/">Business</a></li>
-        <li><a href="https://www.google.com/intl/en/about.html">About</a></li>
-      </ul>
-      <ul>
-        <li><a href="https://www.google.com/intl/en/policies/privacy/">Privacy</a></li>
-        <li><a href="https://www.google.com/intl/en/policies/terms/">Terms</a></li>
-        <li><a href="https://www.google.com/preferences">Settings</a></li>
-      </ul>
+   <div id="footer">
+     <span id="fsl">
+        <a href="https://www.google.com/intl/en/ads/">Advertising</a>
+        <a href="https://www.google.com/services/">Business</a>
+        <a href="https://www.google.com/intl/en/about.html">About</a>
+      </span>
+      <span id="fsr">
+        <a href="https://www.google.com/intl/en/policies/privacy/">Privacy</a>
+        <a href="https://www.google.com/intl/en/policies/terms/">Terms</a>
+        <a href="https://www.google.com/preferences">Settings</a>
+      </span>
+    </div>
   </body>
 </html>
